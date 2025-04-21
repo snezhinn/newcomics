@@ -1,0 +1,65 @@
+body{
+
+    margin: 0;
+    background-color: #ffd2a8;
+    font-family: "StratosSkyeng", sans-serif;
+    background-position: bottom;
+
+}
+
+.hight{
+    height: 100vh;
+    background-image: url(/imagesTQ/1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.low{
+    padding-top: 75px;
+    border-top: 25px solid rgb(255, 220, 196);
+    position: relative;
+}
+
+table{
+    width: 1200px;
+    height: 100vp;
+    border-collapse: collapse;
+    margin: 0 auto;
+
+}
+
+tr, td{
+    border: 25px solid rgb(255, 220, 196);
+    text-align: center;
+    vertical-align: bottom;
+}
+
+img{
+    width: 560px;
+}
+
+p{
+    background-color: rgb(255, 220, 196);
+    width: max-content;
+    font-size: 30px;
+    border-radius: 15px;
+    margin: 23px auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+a{
+    display: block;
+    background-color: rgb(172, 116, 79);
+    color: aliceblue;
+    padding: 10px 30px;
+    border-radius: 15px;
+    font-size: 38px;
+    position: absolute;
+    bottom: 75px;
+    right: 80px;
+    text-decoration: none;
+}
